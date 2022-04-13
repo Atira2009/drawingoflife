@@ -1,4 +1,3 @@
-ans = "";
 function setup(){
     x = createCapture(VIDEO);
     x.size(550, 500);
@@ -6,6 +5,7 @@ function setup(){
     c.position(570, 100);
     poseNet = ml5.poseNet(x,modelloaded);
     poseNet.on('pose', gotposes)
+    ans = "";
 }
 
 function draw(){
