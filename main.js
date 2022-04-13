@@ -1,3 +1,4 @@
+ans = "";
 function setup(){
     x = createCapture(VIDEO);
     x.size(550, 500);
